@@ -14,6 +14,8 @@ permalink: /colophon/
 - [Dead Link Checker](https://www.deadlinkchecker.com/)
 - [GitHub](https://github.com/)
 - [GitHub Pages](https://pages.github.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Minima Theme](https://github.com/jekyll/minima)
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/report#/ajnx.github.io/blog-test-new/)
 
 ## Local
