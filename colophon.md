@@ -30,4 +30,4 @@ permalink: /colophon/
 
 Thanks for visiting!
 
-![Words, words, words.](/images/alan-nightingale-pixel-16.png "A black and white pixelated self-portrait of the author, Alan Nightingale.")
+![Words, words, words.](/blog-test-new/images/alan-nightingale-pixel-16.png "A black and white pixelated self-portrait of the author, Alan Nightingale.")
