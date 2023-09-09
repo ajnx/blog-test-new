@@ -1,6 +1,7 @@
 ---
 short_name: alan
 name: Alan Nightingale
-position: Writer
+position: PositionGoesHere
 ---
-Alan is an avid fruit grower based in the south of France.
+
+DescriptionGoesHere
