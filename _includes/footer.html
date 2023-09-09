@@ -3,18 +3,18 @@
 
   <div class="wrapper">
 
-    <!-- Was commented out -->
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <!-- Was commented out -->
-      <p><a href="https://ajnx.github.io/feed.xml">RSS</a></p>
-      <!-- Was commented out -->
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      <p>2023 ajnx</p>
+
+      <!-- RSS -->
+      <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+      
+      <!-- Something -->
+      <p>Created with ❤️ in MN</p>
+      
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
+
             <!-- Was commented out -->
             {%- if site.author -%}
               {{ site.author | escape }}
@@ -25,6 +25,7 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            
         </ul>
       </div>
 
