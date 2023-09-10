@@ -1,31 +1,28 @@
 <footer class="site-footer h-card">
-
 	<data class="u-url" href="{{ "/" | relative_url }}"></data>
-
 	<div class="wrapper">
 
 		<!-- Test Text -->
-		<p>Hello footer 3</p>
+		<p>Footer 1</p>
 
 		<div class="footer-col-wrapper">
 		
 			<div class="footer-col footer-col-1">
 
-				<!-- Test Text -->				
-				<p>Hello footer 5</p>
+				<!-- Test Text -->
+				<p>Footer column 1</p>
 
 				<!-- RSS -->
-				<p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
-
-				<!-- Something -->
-				<p>Created with ❤️ in MN</p>
+				<p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a></p>
 
 				<ul class="contact-list">
 					<li class="p-name">
 
-						<li><p>Hello footer 5 LI P</p></li>
+						<li><a>Footer C1 LI1 A</a></li>
 
-						<!-- Was commented out, try adding to About page -->
+						<li><p>Footer C1 LI2 P</p></li>
+
+						<!-- Site email -->
 						{%- if site.email -%}
 						<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 						{%- endif -%}
@@ -34,20 +31,26 @@
 			</div>
 
 			<div class="footer-col footer-col-2">
-				<p>Hello footer 6</p>
-				<!-- Was commented out -->
+
+				<!-- Test Text -->
+				<p>Footer column 2</p>
+
+				<!-- GITHUB, TWITTER -->
 				{%- include social.html -%}
 			</div>
 
 			<div class="footer-col footer-col-3">
-				<p>Hello footer 7</p>
-				<!-- Was commented out -->
+
+				<!-- Test Text -->
+				<p>Footer column 3</p>
+
+				<!-- Site Description -->
 				<p>{{- site.description | escape -}}</p>
+				
 			</div>
-
-			<p>Hello footer 8</p>
-
 		</div>
+
+		<p>Made with ❤️ in MN</p>
 
 		<p>Hello footer 9</p>
 
