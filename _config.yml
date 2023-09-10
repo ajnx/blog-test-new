@@ -29,7 +29,7 @@ baseurl: /blog-test-new/
 author: alan
 
 email: hello@example.com
-twitter_username: ajnx
+#twitter_username: ajnx
 github_username:  ajnx
 
 # Build settings
