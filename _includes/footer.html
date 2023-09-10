@@ -1,4 +1,7 @@
 <footer class="site-footer h-card">
+
+  <p>Hello footer!</p>
+
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
@@ -15,17 +18,12 @@
         <ul class="contact-list">
           <li class="p-name">
 
-            <!-- Was commented out -->
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
+            <!-- Was commented out, try adding to About page -->
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-            
+
         </ul>
       </div>
 
@@ -41,5 +39,7 @@
     </div>
 
   </div>
+
+  <p>Thanks for visiting!</p>
 
 </footer>
