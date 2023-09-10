@@ -3,37 +3,29 @@
 	<div class="wrapper">
 
 		<!-- Test Text -->
-		<p>Footer 1</p>
+		<!--<p>Footer 1</p>-->
 
 		<div class="footer-col-wrapper">
 		
 			<div class="footer-col footer-col-1">
 
 				<!-- Test Text -->
-				<p>Footer column 1</p>
+				<!--<p>Footer column 1</p>-->
 
 				<!-- RSS -->
 				<p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a></p>
 
-				<ul class="contact-list">
-					<li class="p-name">
+				<!-- Site email -->
+				{%- if site.email -%}
+				<p class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</p>
+				{%- endif -%}
 
-						<li><a>Footer C1 LI1 A</a></li>
-
-						<li><p>Footer C1 LI2 P</p></li>
-
-						<!-- Site email -->
-						{%- if site.email -%}
-						<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-						{%- endif -%}
-
-				</ul>
 			</div>
 
 			<div class="footer-col footer-col-2">
 
 				<!-- Test Text -->
-				<p>Footer column 2</p>
+				<!--<p>Footer column 2</p>-->
 
 				<!-- GITHUB, TWITTER -->
 				{%- include social.html -%}
@@ -42,17 +34,21 @@
 			<div class="footer-col footer-col-3">
 
 				<!-- Test Text -->
-				<p>Footer column 3</p>
+				<!--<p>Footer column 3</p>-->
 
 				<!-- Site Description -->
 				<p>{{- site.description | escape -}}</p>
-				
+
 			</div>
 		</div>
 
-		<p>Made with ❤️ in MN</p>
+		<p>Copyright &#169; 2023 Alan Nightingale. All rights reserved unless otherwise indicated.</p>
 
-		<p>Hello footer 9</p>
+		<p>Made with ❤️ in MN.</p>
+
+		<p>Thanks for visiting!</p>
+
+		<p><img src="/blog-test-new/images/alan-nightingale-pixel-16.png" width="16" height="16" alt="A black and white pixelated self-portrait of the author, Alan Nightingale."></p>
 
 	</div>
 
