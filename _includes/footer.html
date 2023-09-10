@@ -1,54 +1,62 @@
 <footer class="site-footer h-card">
 
-  <p>Hello footer 1</p>
+	<p>Hello footer 1</p>
 
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+	<data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <p>Hello footer 2</p>
+	<p>Hello footer 2</p>
 
-  <div class="wrapper">
+	<div class="wrapper">
 
-    <p>Hello footer 3</p>
+		<p>Hello footer 3</p>
 
-    <div class="footer-col-wrapper">
+		<div class="footer-col-wrapper">
 
-      <!-- RSS -->
-      <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
-      
-      <!-- Something -->
-      <p>Created with ❤️ in MN</p>
-      
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
+			<p>Hello footer 4</p>
 
-            <!-- Was commented out, try adding to About page -->
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+			<!-- RSS -->
+			<p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+			
+			<!-- Something -->
+			<p>Created with ❤️ in MN</p>
+			
+			<div class="footer-col footer-col-1">
 
-        </ul>
-      </div>
+				<p>Hello footer 5</p>
 
-      <div class="footer-col footer-col-2">
-        <!-- Was commented out -->
-        {%- include social.html -%}
-      </div>
+				<ul class="contact-list">
+					<li class="p-name">
 
-      <div class="footer-col footer-col-3">
-        <!-- Was commented out -->
-        <p>{{- site.description | escape -}}</p>
-      </div>
+						<li><a>Hello footer 5 LI</a></li>
 
-      <p>Thanks for visiting 3</p>
+						<!-- Was commented out, try adding to About page -->
+						{%- if site.email -%}
+						<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+						{%- endif -%}
 
-    </div>
+				</ul>
+			</div>
 
-    <p>Thanks for visiting 2</p>
+			<div class="footer-col footer-col-2">
+				<p>Hello footer 6</p>
+				<!-- Was commented out -->
+				{%- include social.html -%}
+			</div>
 
-  </div>
+			<div class="footer-col footer-col-3">
+				<p>Hello footer 7</p>
+				<!-- Was commented out -->
+				<p>{{- site.description | escape -}}</p>
+			</div>
 
-  <p>Thanks for visiting 1</p>
+			<p>Thanks for visiting 3</p>
+
+		</div>
+
+		<p>Thanks for visiting 2</p>
+
+	</div>
+
+	<p>Thanks for visiting 1</p>
 
 </footer>
