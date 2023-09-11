@@ -6,6 +6,7 @@ date:   2023-09-11 05:01:00 -0500
 categories: appple banana cantaloupe
 tags: orange pear pumpkin
 ---
+
 ## Time
 
 MN is currently in CDT. The current offset is -5.
@@ -20,10 +21,6 @@ For example, the file for this blog post is named:
 
 `2023-09-11-welcome-to-jekyll-modified.md`
 
-
----
-
-
 ## Code
 
 Jekyll also offers powerful support for code snippets:
@@ -36,10 +33,23 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Links
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
+Jekyll
+
+- [Duck Duck Go](https://duckduckgo.com)
+- [Jekyll Documentation][jekyll-docs]
+- [Jekyll Repo on GitHub][jekyll-gh]
+- [Jekyll Talk Discussion Boards][jekyll-talk]
+
+[This is a way to reuse links if needed.]: # 
+
+[jekyll-docs]: https://jekyllrb.com/docs/
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com
+
+---
+
+## Post Permalink
 
 Look at changing permalinks. https://jekyllrb.com/docs/permalinks/
