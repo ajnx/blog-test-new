@@ -1,20 +1,27 @@
 ---
 layout: post
 title:  "Welcome to Jekyll (modified)"
+author: Alan Nightingale
 date:   2023-09-11 05:01:00 -0500
 categories: appple banana cantaloupe
-tags: orange pear pumpkin 
+tags: orange pear pumpkin
 ---
+
+## Time
 
 MN is currently in CDT. The current offset is -5.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Post File
 
 Jekyll requires blog post files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+For example, the file for this blog post is named:
+
+`2023-09-11-welcome-to-jekyll-modified.md`
+
+---
 
 Jekyll also offers powerful support for code snippets:
 
@@ -31,3 +38,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+Look at changing permalinks. https://jekyllrb.com/docs/permalinks/
