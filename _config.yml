@@ -28,8 +28,6 @@ baseurl: /blog-test-new/
 
 author: alan
 
-email: hello@example.com
-
 # Build settings
 theme: minima
 plugins:
