@@ -52,4 +52,4 @@ Jekyll
 
 ## Post Permalink
 
-Look at changing permalinks. https://jekyllrb.com/docs/permalinks/
+Look at changing [permalinks](https://jekyllrb.com/docs/permalinks/).
