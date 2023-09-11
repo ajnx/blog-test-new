@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: blog-test-new
+title: Blog Test New
 description: >- # this means to ignore newlines until next variable
   A blog test. Uses Jekyll. Served with GitHub Pages.
 
@@ -29,8 +29,6 @@ baseurl: /blog-test-new/
 author: alan
 
 email: hello@example.com
-#twitter_username: ajnx
-github_username:  ajnx
 
 # Build settings
 theme: minima
