@@ -29,7 +29,3 @@ permalink: /colophon/
 - [Sublime Text](https://www.sublimetext.com/)
 - [VoiceOver](https://en.wikipedia.org/wiki/VoiceOver)
 - [WebKit](https://webkit.org/)
-
-Thanks for visiting!
-
-![Words, words, words.](/blog-test-new/images/alan-nightingale-pixel-16.png "A black and white pixelated self-portrait of the author, Alan Nightingale.")
