@@ -26,6 +26,8 @@ domain: ajnx.github.io
 url: https://ajnx.github.io
 baseurl: /blog-test-new/
 
+permalink: /:title/
+
 author: alan
 
 # Build settings
