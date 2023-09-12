@@ -48,8 +48,6 @@ Jekyll
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com
 
----
-
 ## Post Permalink
 
-Look at changing [permalinks](https://jekyllrb.com/docs/permalinks/).
+You can change the [permalink](https://jekyllrb.com/docs/permalinks/) style.
