@@ -1,14 +1,15 @@
 ---
-layout:		post
-title:		"Patty Cake for Girls"
-author:		Alan Nightingale
-date:		2023-04-07 22:00:00 -0500
-categories:	"Nursery Rhyme"
-tags:		Girls NurseryRhyme
+layout:     post
+title:      "Patty Cake for Girls"
+author:     Alan Nightingale
+date:       2023-04-07 22:00:00 -0500
+categories: "Nursery Rhyme"
+tags:       Girls NurseryRhyme
 ---
 
-I have an infant daughter. She loves Patty Cake (or [Pat-a-cake](https://en.wikipedia.org/wiki/Pat-a-cake,_pat-a-cake,_baker%27s_man)). Here is my version:<br>
+I have an infant daughter. She loves Patty Cake (or [Pat-a-cake](https://en.wikipedia.org/wiki/Pat-a-cake,_pat-a-cake,_baker%27s_man)). Here is my version:
 
+<br><br>
 
 *Patty cake, patty cake, bakers girl.*
 
