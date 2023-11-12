@@ -8,7 +8,6 @@ tags:       Girls NurseryRhyme
 ---
 
 I have an infant daughter. She loves Patty Cake (or [Pat-a-cake](https://en.wikipedia.org/wiki/Pat-a-cake,_pat-a-cake,_baker%27s_man)). Here is my version:
-
 <br>
 
 *Patty cake, patty cake, bakers girl.*
@@ -25,6 +24,7 @@ I have an infant daughter. She loves Patty Cake (or [Pat-a-cake](https://en.wiki
 
 *Yay! Baby!*
 
+
 ---
 
 0 CR
@@ -33,8 +33,8 @@ I have an infant daughter. She loves Patty Cake (or [Pat-a-cake](https://en.wiki
 
 0 CR + 1 BR
 1 CR + 1 BR
-2 CR + 1 BR
+2 CR + 1 BR - too long
 
 0 CR + 2 BR
 1 CR + 2 BR
-2 CR + 2 BR - too long, looks weird
+2 CR + 2 BR - too long
